@@ -9,15 +9,9 @@
 		"eslint",
 		"tslint"
 	],
-	"author": {
-		"name": "JowayYoung",
-		"phone": "18819249731",
-		"email": "young.joway@aliyun.com"
-	},
-	"homepage": "https://github.com/JowayYoung",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JowayYoung/vscode-lint.git"
+		"url": "https://github.com/zc1031003171/Civ_Webapp.git"
 	},
 	"license": "MIT",
 	"scripts": {
