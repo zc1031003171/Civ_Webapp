@@ -28,7 +28,8 @@ module.exports = {
 	],
 	root: true,
 	rules: {
-		/* eslint-disable quote-props */
+		/*eslint-disable quote-props */
+		"spaced-comment": ["off"],
 		"eol-last": ["error", "never"],
 		"handle-callback-err": ["error", "err"],
 		"indent": ["error", "tab"],
@@ -52,15 +53,19 @@ module.exports = {
 		"semi": ["error", "always"],
 		"space-before-function-paren": ["error", "never"],
 		"switch-colon-spacing": ["error"],
-		"vue/component-definition-name-casing": ["error", "kebab-case"], // vue
-		"vue/component-tags-order": ["error", { order: ["template", "style", "script"] }], // vue
-		"vue/html-indent": ["error", "tab"], // vue
-		"vue/html-self-closing": ["off"], // vue
-		"vue/max-attributes-per-line": ["off"], // vue
-		"vue/multi-word-component-names": ["off"], // vue
-		"vue/mustache-interpolation-spacing": ["error", "never"], // vue
-		"vue/name-property-casing": ["error", "kebab-case"], // vue
-		"vue/singleline-html-element-content-newline": ["off"] // vue
-		/* eslint-enable quote-props */
+		"vue/component-definition-name-casing": ["error", "kebab-case"], //vue
+		"vue/component-tags-order": ["error", { order: ["template", "script", "style"] }], //vue
+		"vue/html-indent": ["error", "tab"], //vue
+		"vue/html-self-closing": ["off"], //vue
+		"vue/max-attributes-per-line": ["off"], //vue
+		"vue/multi-word-component-names": ["off"], //vue
+		"vue/mustache-interpolation-spacing": ["error", "never"], //vue
+		"vue/name-property-casing": ["error", "kebab-case"], //vue
+		"vue/singleline-html-element-content-newline": ["off"], //vue
+		"vue/require-default-prop": ["off"],
+		"no-useless-catch": ["off"],
+		"no-prototype-builtins": ["off"],
+		"no-extra-boolean-cast": ["error", { "enforceForLogicalOperands": true }]
+		/*eslint-enable quote-props */
 	}
 };

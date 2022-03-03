@@ -20,7 +20,7 @@ module.exports = {
 		/* eslint-disable quote-props */
 		"alpha-value-notation": "number",
 		"at-rule-empty-line-before": "never",
-		"at-rule-no-unknown": [true, { ignoreAtRules: ["content", "each", "error", "extend", "for", "function", "if", "include", "mixin", "return", "while"] }],
+		"at-rule-no-unknown": [true, { ignoreAtRules: ["content", "each", "error", "extend", "for", "function", "if", "include", "mixin", "return", "while", "try", "catch"] }],
 		"color-function-notation": "legacy",
 		"color-no-invalid-hex": true,
 		"comment-empty-line-before": "never",
